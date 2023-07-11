@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Sidebar from './components/Sidebar'
 import Main from './components/Main'
 import Work from './components/Work'
+import Projects from './components/Projects'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
         <Sidebar />
         <Main />
         <Work />
+        <Projects />
       </div>
   )
 }
